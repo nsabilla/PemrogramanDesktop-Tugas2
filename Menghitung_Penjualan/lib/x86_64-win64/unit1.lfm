@@ -1,0 +1,161 @@
+object Form1: TForm1
+  Left = 357
+  Height = 600
+  Top = 215
+  Width = 573
+  Caption = 'Perhitungan Penjualan Barang'
+  ClientHeight = 600
+  ClientWidth = 573
+  DesignTimePPI = 144
+  LCLVersion = '2.2.6.0'
+  object btnHitung: TButton
+    Left = 96
+    Height = 38
+    Top = 456
+    Width = 113
+    Caption = 'Hitung'
+    OnClick = btnHitungClick
+    TabOrder = 0
+  end
+  object btnUlang: TButton
+    Left = 224
+    Height = 38
+    Top = 456
+    Width = 113
+    Caption = 'Ulang'
+    OnClick = btnUlangClick
+    TabOrder = 1
+  end
+  object btnKeluar: TButton
+    Left = 360
+    Height = 38
+    Top = 456
+    Width = 113
+    Caption = 'Keluar'
+    OnClick = btnKeluarClick
+    TabOrder = 2
+  end
+  object Label1: TLabel
+    Left = 72
+    Height = 25
+    Top = 112
+    Width = 101
+    Caption = 'Kode Barang'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 72
+    Height = 25
+    Top = 160
+    Width = 68
+    Caption = 'Quantity'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 72
+    Height = 25
+    Top = 208
+    Width = 107
+    Caption = 'Nama Barang'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 72
+    Height = 25
+    Top = 256
+    Width = 107
+    Caption = 'Harga Satuan'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 72
+    Height = 25
+    Top = 304
+    Width = 73
+    Caption = 'Sub Total'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 72
+    Height = 25
+    Top = 352
+    Width = 55
+    Caption = 'Diskon'
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 78
+    Height = 25
+    Top = 400
+    Width = 37
+    Caption = 'Total'
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 136
+    Height = 25
+    Top = 40
+    Width = 295
+    Caption = 'PERHITUNGAN PENJUALAN BARANG'
+    ParentColor = False
+  end
+  object cbKode: TComboBox
+    Left = 248
+    Height = 33
+    Top = 104
+    Width = 256
+    ItemHeight = 25
+    Items.Strings = (
+      'A01'
+      'B02'
+      'C03'
+      'D04'
+    )
+    OnChange = cbKodeChange
+    TabOrder = 3
+    Text = 'cbKode'
+  end
+  object edtQTY: TEdit
+    Left = 248
+    Height = 33
+    Top = 152
+    Width = 256
+    OnChange = edtQTYChange
+    TabOrder = 4
+  end
+  object edtNama: TEdit
+    Left = 248
+    Height = 33
+    Top = 200
+    Width = 256
+    TabOrder = 5
+  end
+  object edtHargaSatuan: TEdit
+    Left = 248
+    Height = 33
+    Top = 248
+    Width = 256
+    TabOrder = 6
+  end
+  object edtSubTotal: TEdit
+    Left = 248
+    Height = 33
+    Top = 296
+    Width = 256
+    TabOrder = 7
+  end
+  object edtDiskon: TEdit
+    Left = 248
+    Height = 33
+    Top = 344
+    Width = 256
+    TabOrder = 8
+  end
+  object edtTotal: TEdit
+    Left = 249
+    Height = 33
+    Top = 392
+    Width = 256
+    TabOrder = 9
+  end
+end
