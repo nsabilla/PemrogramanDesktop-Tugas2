@@ -1,4 +1,4 @@
-# Tugas1: Perulangan
+# Tugas2: Perulangan
 
 ```bash
 Nama    : Nurul Najwa Sabilla
